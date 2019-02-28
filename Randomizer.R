@@ -31,3 +31,6 @@ if(anyDuplicated(labels)){
 }
 
 View(final)
+
+#Export as excel file
+write.csv2(final, "Randomized_list.csv")
